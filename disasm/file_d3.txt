@@ -1,0 +1,5 @@
+begin 0
+div 0
+push -1
+mul 0
+out 0

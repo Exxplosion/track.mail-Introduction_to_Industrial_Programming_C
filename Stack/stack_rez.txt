@@ -1,0 +1,29 @@
+!!UNIT #1 TEST PASSED!!
+
+ 
+ 
+!!!!!!!!!STACK_DUMP_ACTIVATED!!!!!!!!!!! 
+ 
+ 
+Data(0) 299 0x556d48089300 
+Data(1) 299 0x556d48089304 
+Data(2) 299 0x556d48089308 
+Data(3) 443 0x556d4808930c 
+size: 10, top: 4, hash: 1794, hash_2: 2226, canary_1 DED00BAD, canary_2 BABABEDA 
+!!UNIT #3 TEST PASSED!!
+
+ 
+ 
+!!!!!!!!!STACK_DUMP_ACTIVATED!!!!!!!!!!! 
+ 
+ 
+Data(0) 299 0x556d48089330 
+size: 10, top: 1, hash: 0, hash_2: 0, canary_1 BABA0000, canary_2 BABABEDA 
+!!UNIT #4 TEST PASSED!!
+!!UNIT #5 TEST PASSED!!
+!!!!!!UNIT #6 TEST PASSED!!!!!
+!!!!!!UNIT #7 TEST PASSED!!!!!
+!!!!!!UNIT #8 TEST PASSED!!!!!
+!!!!!!UNIT #9 TEST PASSED!!!!!
+!!!!!!UNIT #10 TEST PASSED!!!!!
+!!!!!!UNIT #11 TEST PASSED!!!!!

@@ -1,0 +1,8 @@
+digraph G{
+	"0" [shape="record", label=" Next id: 2| Current elem: 0| Number elem: 3| Data: 25 | Prev: -1"];
+"1" [shape="record", label=" Next id: 1| Current elem: 1| Number elem: 2| Data: 30 | Prev: 3"];
+"2" [shape="record", label=" Next id: 0| Current elem: 2| Number elem: 1| Data: 2 | Prev: 2"];
+"3" [shape="record", label=" Next id: -1| Current elem: 3| Number elem: 0| Data: 1 | Prev: 1"];
+"NULL_head" -> 
+0 ->1 ->2 ->3 ->NULL_tail;
+}

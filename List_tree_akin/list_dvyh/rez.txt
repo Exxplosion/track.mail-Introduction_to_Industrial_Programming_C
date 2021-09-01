@@ -1,0 +1,9 @@
+<graph>
+digraph G{
+	"Elem_list(0) (ptr: 0x55d223b824f0), next_ptr = 0x55d223b824c0, Data: 2 <-0x55d223b824f4"
+->"Elem_list(1) (ptr: 0x55d223b824c0), next_ptr = 0x55d223b82520, Data: 1 <-0x55d223b824c4"
+->"Elem_list(2) (ptr: 0x55d223b82520), next_ptr = 0x55d223b82550, Data: 3 <-0x55d223b82524"
+->"Elem_list(3) (ptr: 0x55d223b82550), next_ptr = (nil), Data: 4 <-0x55d223b82554"
+->NULL;
+}
+</graph>

@@ -1,0 +1,58 @@
+digraph Tree
+{
+subgraph clust_1{
+	val_1 [ shape = "record", label = "{ 1\n0x5620a1cefb30|{ -\n } }"] }
+
+subgraph clust_2{
+	val_2 [ shape = "record", label = "{ 2\n0x5620a1cefa40|{ +\n } }"] }
+
+		val_1:<center> -> val_2 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_3{
+	val_3 [ shape = "record", label = "{ 3\n0x5620a1cef9e0|{ -\n } }"] }
+
+		val_2:<center> -> val_3 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_4{
+	val_4 [ shape = "record", label = "{ 4\n0x5620a1cef920|{ ^\n } }"] }
+
+		val_3:<center> -> val_4 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_5{
+	val_5 [ shape = "record", label = "{ 5\n0x5620a1cef8c0|{ x\n } }"] }
+
+		val_4:<center> -> val_5 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_6{
+	val_6 [ shape = "record", label = "{ 6\n0x5620a1cef8f0|{ 2\n } }"]}
+
+		val_4:<center> -> val_6 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_7{
+	val_7 [ shape = "record", label = "{ 7\n0x5620a1cef9b0|{ *\n } }"] }
+
+		val_3:<center> -> val_7 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_8{
+	val_8 [ shape = "record", label = "{ 8\n0x5620a1cef950|{ 3\n } }"]}
+
+		val_7:<center> -> val_8 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_9{
+	val_9 [ shape = "record", label = "{ 9\n0x5620a1cef980|{ x\n } }"] }
+
+		val_7:<center> -> val_9 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_10{
+	val_10 [ shape = "record", label = "{ 10\n0x5620a1cefa10|{ 4\n } }"]}
+
+		val_2:<center> -> val_10 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_11{
+	val_11 [ shape = "record", label = "{ 11\n0x5620a1cefb00|{ *\n } }"] }
+
+		val_1:<center> -> val_11 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_12{
+	val_12 [ shape = "record", label = "{ 12\n0x5620a1cefa70|{ 20\n } }"]}
+
+		val_11:<center> -> val_12 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_13{
+	val_13 [ shape = "record", label = "{ 13\n0x5620a1cefad0|{ ln\n } }"] }
+
+		val_11:<center> -> val_13 [label="  " color="#228b22" fontcolor="#228b22"];
+subgraph clust_14{
+	val_14 [ shape = "record", label = "{ 14\n0x5620a1cefaa0|{ x\n } }"] }
+
+		val_13:<center> -> val_14 [label="  " color="#228b22" fontcolor="#228b22"];
+}

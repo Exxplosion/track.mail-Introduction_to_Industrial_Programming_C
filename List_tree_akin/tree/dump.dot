@@ -1,0 +1,85 @@
+digraph Tree
+{
+	size [ label ="size = 17" shape=diamond, conditional=true];
+subgraph clust_1{
+	val_1 [ shape = "record", label = "{ 1\n0x5580cfc9b4b0|{ value = 
+Eto zhivotnoe?\n  |<parent> parent\n0x7fad4330a2c0 } | { <left> left\n0x5580cfc9b4e0 | <right> right\n0x5580cfc9b6f0 } }"]}
+
+subgraph clust_2{
+	val_2 [ shape = "record", label = "{ 2\n0x5580cfc9b4e0|{ value = 
+ETO PREPOD?\n  |<parent> parent\n0x5580cfc9b4b0 } | { <left> left\n0x5580cfc9b510 | <right> right\n0x5580cfc9b600 } }"]}
+
+		val_1:<left> -> val_2 [label="  Yes " color="#228b22" fontcolor="#228b22"];
+subgraph clust_3{
+	val_3 [ shape = "record", label = "{ 3\n0x5580cfc9b510|{ value = 
+Nyashe4ka\n  |<parent> parent\n0x5580cfc9b4e0 } | { <left> left\n0x5580cfc9b540 | <right> right\n0x5580cfc9b570 } }"]}
+
+		val_2:<left> -> val_3 [label="  Yes " color="#228b22" fontcolor="#228b22"];
+subgraph clust_4{
+	val_4 [ shape = "record", label = "{ 4\n0x5580cfc9b540|{ value = Prepodaet fizon\n  |<parent> parent\n0x5580cfc9b510 } | { <left> left\n0x5580cfc9c260 | <right> right\n0x5580cfc9c230 } }"]}
+
+		val_3:<left> -> val_4 [label="  Yes " color="#228b22" fontcolor="#228b22"];
+subgraph clust_5{
+	val_5 [ shape = "record", label = "{ 5\n0x5580cfc9c260|{ value = Loshkarev\n  |<parent> parent\n0x5580cfc9b540 } | { <left> left\n(nil) | <right> right\n(nil) } }"]}
+
+		val_4:<left> -> val_5 [label="  Yes " color="#228b22" fontcolor="#228b22"];
+subgraph clust_6{
+	val_6 [ shape = "record", label = "{ 6\n0x5580cfc9c230|{ value = 
+Trushin\n  |<parent> parent\n0x5580cfc9b540 } | { <left> left\n(nil) | <right> right\n(nil) } }"]}
+
+		val_4:<right> -> val_6 [label="  No " color="#ff7e40" fontcolor="#ff7e40"];
+subgraph clust_7{
+	val_7 [ shape = "record", label = "{ 7\n0x5580cfc9b570|{ value = 
+Prepodaet\n  |<parent> parent\n0x5580cfc9b510 } | { <left> left\n0x5580cfc9b5a0 | <right> right\n0x5580cfc9b5d0 } }"]}
+
+		val_3:<right> -> val_7 [label="  No " color="#ff7e40" fontcolor="#ff7e40"];
+subgraph clust_8{
+	val_8 [ shape = "record", label = "{ 8\n0x5580cfc9b5a0|{ value = 
+Ovchesos\n  |<parent> parent\n0x5580cfc9b570 } | { <left> left\n(nil) | <right> right\n(nil) } }"]}
+
+		val_7:<left> -> val_8 [label="  Yes " color="#228b22" fontcolor="#228b22"];
+subgraph clust_9{
+	val_9 [ shape = "record", label = "{ 9\n0x5580cfc9b5d0|{ value = 
+EVOVANYI UMNOV\n  |<parent> parent\n0x5580cfc9b570 } | { <left> left\n(nil) | <right> right\n(nil) } }"]}
+
+		val_7:<right> -> val_9 [label="  No " color="#ff7e40" fontcolor="#ff7e40"];
+subgraph clust_10{
+	val_10 [ shape = "record", label = "{ 10\n0x5580cfc9b600|{ value = 
+MYAKAET\n  |<parent> parent\n0x5580cfc9b4e0 } | { <left> left\n0x5580cfc9b630 | <right> right\n0x5580cfc9b6c0 } }"]}
+
+		val_2:<right> -> val_10 [label="  No " color="#ff7e40" fontcolor="#ff7e40"];
+subgraph clust_11{
+	val_11 [ shape = "record", label = "{ 11\n0x5580cfc9b630|{ value = Myzhkogo pola
+\n  |<parent> parent\n0x5580cfc9b600 } | { <left> left\n0x5580cfc9b660 | <right> right\n0x5580cfc9b690 } }"]}
+
+		val_10:<left> -> val_11 [label="  Yes " color="#228b22" fontcolor="#228b22"];
+subgraph clust_12{
+	val_12 [ shape = "record", label = "{ 12\n0x5580cfc9b660|{ value = KOTIK\n  |<parent> parent\n0x5580cfc9b630 } | { <left> left\n(nil) | <right> right\n(nil) } }"]}
+
+		val_11:<left> -> val_12 [label="  Yes " color="#228b22" fontcolor="#228b22"];
+subgraph clust_13{
+	val_13 [ shape = "record", label = "{ 13\n0x5580cfc9b690|{ value = 
+KOSHKA\n  |<parent> parent\n0x5580cfc9b630 } | { <left> left\n(nil) | <right> right\n(nil) } }"]}
+
+		val_11:<right> -> val_13 [label="  No " color="#ff7e40" fontcolor="#ff7e40"];
+subgraph clust_14{
+	val_14 [ shape = "record", label = "{ 14\n0x5580cfc9b6c0|{ value = 
+TI???\n  |<parent> parent\n0x5580cfc9b600 } | { <left> left\n(nil) | <right> right\n(nil) } }"]}
+
+		val_10:<right> -> val_14 [label="  No " color="#ff7e40" fontcolor="#ff7e40"];
+subgraph clust_15{
+	val_15 [ shape = "record", label = "{ 15\n0x5580cfc9b6f0|{ value = 
+Hm, eto bog?\n  |<parent> parent\n0x5580cfc9b4b0 } | { <left> left\n0x5580cfc9b720 | <right> right\n0x5580cfc9b750 } }"]}
+
+		val_1:<right> -> val_15 [label="  No " color="#ff7e40" fontcolor="#ff7e40"];
+subgraph clust_16{
+	val_16 [ shape = "record", label = "{ 16\n0x5580cfc9b720|{ value = 
+A ny eto avtor\n  |<parent> parent\n0x5580cfc9b6f0 } | { <left> left\n(nil) | <right> right\n(nil) } }"]}
+
+		val_15:<left> -> val_16 [label="  Yes " color="#228b22" fontcolor="#228b22"];
+subgraph clust_17{
+	val_17 [ shape = "record", label = "{ 17\n0x5580cfc9b750|{ value = 
+vlados???\n  |<parent> parent\n0x5580cfc9b6f0 } | { <left> left\n(nil) | <right> right\n(nil) } }"]}
+
+		val_15:<right> -> val_17 [label="  No " color="#ff7e40" fontcolor="#ff7e40"];
+}
